@@ -1,0 +1,179 @@
+.Div3{
+    
+    width:100%;
+    max-width:100%;
+    
+    
+}
+.H1{
+    color: #43121d;
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    
+}
+.P1{
+    
+    margin:0 200px 0 280px;
+    width:60%;
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+.divimages{
+    
+    display:inline-flex;
+    width:100%;
+    max-width:100%;
+    margin-top:50px;
+    padding:0 100px 0 100px;
+}
+.divv1 , .divv2, .divv3 {
+    width:33%;
+    margin-left:5px;
+    padding:8px;
+}
+.imgg1 , .imgg2 , .imgg3{
+    width:100%;
+    margin-left:0;
+    border-radius:10px;
+}
+
+.divv1 p, .divv2 p, .divv3 p{
+    font-size: 14px;
+    line-height: 10px;
+    
+}
+.divv1 h2,.divv2 h2, .divv3 h2{
+    color: #43121d;
+    font-size: 20px;
+    font-weight: 600;  
+    line-height:20px;
+}
+.rightPrice{
+    color:rgb(168, 45, 73);
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: 26px;
+    line-height: 10px;
+    font-weight: 700;
+}
+.oldPrice{
+    text-decoration: line-through;
+    color: #555;
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: 26px;
+    line-height: 10px;
+    font-weight: 700;
+}
+
+.btn1 {
+    font-size:16px;
+    margin:10px 0px;
+    padding:10px 20px 8px 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid whitesmoke;
+    background-color: #a82d49;
+    color:white;
+}
+
+
+.btn1:hover{
+    border:2px solid #a82d49;
+    background-color: white;
+    color:#a82d49;
+}
+@media screen and (max-width:760px) {
+    
+    .text{
+        width:100%;
+        margin:0;
+        padding:0;
+        
+    }
+    .H1{
+        margin-top:25px;
+        text-align:center;
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 700;
+        
+    }
+    .P1{ 
+        margin:0;
+        padding:0 20px 0 38px;
+        width:100%;
+        font-size: 15px;
+        color: #555;
+        line-height: 20px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.5px;
+    }
+    .divimages{
+    
+        display:inline-flex;
+        width:100%;
+        max-width:100%;
+        margin-top:50px;
+        padding:0;
+    }
+    .divv1 , .divv2, .divv3 {
+    
+        width:33%;
+        background-repeat: no-repeat;
+        margin-left:5px;
+        padding:15px;
+        
+    }
+    .imgg1 , .imgg2 , .imgg3{
+        width:100%;
+        margin-left:0;
+        border-radius:20px;
+    }
+    
+    .divv1 p, .divv2 p, .divv3 p{
+        font-size: 10.5px;
+        color: #555;
+        line-height: 16px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.5px; 
+    }
+    .divv1 h2,.divv2 h2, .divv3 h2{
+        color: #43121d;
+        font-size: 14px;
+        font-weight: 600;  
+        line-height:20px;
+    }
+    .rightPrice{
+        color:rgb(168, 45, 73);
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 10px;
+        
+    }
+    .oldPrice{
+        text-decoration: line-through;
+        color: #555;
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 10px;
+        
+    }
+    
+    .btn1 {
+        font-size:11px;
+        margin:10px 0px;
+        padding:8px 15px 8px 15px;
+       
+    }
+    
+}

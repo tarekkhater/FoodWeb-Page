@@ -1,0 +1,134 @@
+.form{
+    background-color: blue;
+}
+.container{
+    padding-top:120px;
+    text-align: center;
+    
+    
+}
+#products{
+    display:flex;
+    width:100%;
+    max-width:100%;
+    padding-left:50px;
+    margin-top:30px;
+}
+.container h1{
+   
+    margin-left:-80px;
+    font-size:40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ad2442;
+}
+.rightPrice{
+    color:rgb(168, 45, 73);
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: 26px;
+    line-height: 0;
+    font-weight: 700;
+    
+}
+.oldPrice{
+    text-decoration: line-through;
+    color: #555;
+    margin-bottom: 15px;
+    text-align:center;
+    font-size: 26px;
+    line-height: 1px;
+    font-weight: 700;
+}
+.item{
+    
+    width:31%;
+    margin-left:5px;
+    padding:8px;
+}
+.item h2{
+    color: #43121d;
+    font-size: 20px;
+    font-weight: 600;  
+    line-height:30px;
+}
+.item p{
+    font-size: 14px;
+    line-height: 1px;
+    margin-bottom: 25px;
+}
+.image{
+    width:100%;
+    margin-left:0;
+    border-radius:20px;
+}
+.btn{
+    font-size:16px;
+    margin:10px 0px;
+    padding:10px 20px 8px 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid whitesmoke;
+    background-color: #a82d49;
+    color:white;
+}
+.btn:hover{
+    border:2px solid #a82d49;
+    background-color: white;
+    color:#a82d49;
+}
+@media screen and (max-width:960px) {
+    .container h1{
+        text-align: center;
+        font-size:32px;
+        margin-left:0px;
+    }
+    #products{
+        display:flex;
+        width:100%;
+        max-width:100%;
+        padding-left:0;
+        margin:0;
+        margin-top:30px;
+    }
+    .item{
+    
+        width:31%;
+        margin-left:5px;
+        padding:6px;
+    }
+    
+    .item h2{
+        color: #43121d;
+        font-size: 18px;
+        font-weight: 600;  
+        line-height:22px;
+    }
+    .item p{
+        font-size: 11.5px;
+        line-height: 15px;
+    }
+    
+    .rightPrice{
+        color:rgb(168, 45, 73);
+        margin-bottom: 16px;
+        font-size: 13.5px;
+        line-height: 10px;
+        
+    }
+    .oldPrice{
+        text-decoration: line-through;
+        color: #555;
+        margin-bottom: 16px;
+        font-size: 13px;
+        line-height: 10px;
+        
+    }
+    
+    .btn {
+        font-size:11px;
+        margin:10px 0px;
+        padding:8px 15px 8px 15px;
+       
+    }
+}

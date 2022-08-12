@@ -1,0 +1,41 @@
+.container{
+    position: fixed;
+    width:100%;
+    max-width: 100%;
+    
+    z-index: 5;
+    
+    
+}
+
+.container:first-child{
+    background-color: rgb(39, 33, 33);
+}
+#links{
+    padding: 40px 12px 35px;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #cf3f61;
+    font-weight: 600;
+    margin-left:8px;
+
+}
+#links:first-child{
+    margin-left:400px;
+}
+#contain:first-child{
+    margin-left:120px;
+}
+#hi:first-child{
+    color:whitesmoke;
+    
+}
+@media screen and (max-width:980px){
+    #contain:first-child{
+        margin:0;
+    }
+    #links:first-child{
+        margin:0;
+        margin-left:8px;
+    }
+}

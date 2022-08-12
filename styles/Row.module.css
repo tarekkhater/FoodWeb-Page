@@ -1,0 +1,45 @@
+.rows{
+  background-color:rgb(168, 45, 73);
+  width: 100%;
+  max-width:100%;
+  padding:5px;
+  
+}
+.headRow{
+    color:white;
+    margin-left:150px;
+    word-spacing: 200;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:47px;
+    line-height:30px;
+    margin-top:30px;
+}
+.names{
+    color:white;
+    margin-left:180px;
+    font-size:14px;
+    
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:20px;
+}
+@media screen and (max-width:760px){
+  .rows td{
+    display:block;
+    margin-left:0;
+  }
+  .headRow{
+    font-size:30px;
+    margin-left:150px;
+    line-height: 10px;
+  }
+  .names{
+    margin-left:160px;
+  }
+  .rows{
+    justify-content: center;
+    justify-items: center;
+  }
+  
+}
