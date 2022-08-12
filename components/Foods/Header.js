@@ -64,8 +64,8 @@ const [form, setForm] = useState(true);
   return (
     form?(<div className={styles.container}>
        
-        <h1>Explore Our Foods</h1>
-        <div className='container'>
+        <h1 id="text">Explore Our Foods</h1>
+        <div className='container' id="pro">
          <div className='row' id={styles.products}>{Products()}</div>
         </div>
  

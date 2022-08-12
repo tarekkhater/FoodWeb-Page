@@ -19,21 +19,19 @@ export default function Form() {
                 </div>
             </div>
             <div className="">
-              <label htmlFor="validationCustom02" className="form-label">Last name</label>
-              <input type="text" className="form-control" id="validationCustom02"  required / >
+              <label htmlFor="validationCustom02" className="form-label">last name</label>
+              <input type="text" className="form-control" id="validationCustom01"  required />
                 <div className="valid-feedback">
                   Looks good!
                 </div>
-            </div>
-            <div className="">
-              <label htmlFor="validationCustomUsername" className="form-label">Phone</label>
-         <div className="input-group has-validation">
-          <input type="phone" className="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required / >
-             <div className="invalid-feedback">
-               Please put your phone.
-             </div>
-            </div>
-          </div>
+           </div>
+           <div className="">
+              <label htmlFor="validationCustomm" className="form-label">phone</label>
+              <input type="phone" className="form-control" id="validationCustomm"  required />
+                <div className="valid-feedback">
+                  please put your mobile number
+                </div>
+           </div>
           <div className="">
             <label htmlFor="validationCustom03" className="form-label">Adress</label>
             <input type="text" className="form-control" id="validationCustom03" required  />

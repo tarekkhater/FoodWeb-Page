@@ -14,8 +14,8 @@ function Header(){
                     <p className={styles.txttt}>Good food choices are good investments.</p> 
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum amet leo.</span>
                     <br/><br/>
-                    <button className={styles.btn1}><Link href="/foods">Order Now  &nbsp;<span className="bi bi-cart4"></span></Link></button>
-                    <button className={styles.btn2}><Link href='/faq'>Learn More &nbsp;<i className="bi bi-chevron-right"></i></Link></button>
+                    <button className={styles.btn1}><Link href="/foods">Order Now  &nbsp;</Link> <span className="bi bi-cart4"></span></button>
+                    <button className={styles.btn2}><Link href='/faq'>Learn More &nbsp;</Link><i className="bi bi-chevron-right"></i></button>
              </div>
              </div>
              </div>

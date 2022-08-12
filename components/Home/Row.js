@@ -6,26 +6,26 @@ function Row(){
         return(
             <Fragment >
                 <div className={styles.rows}>
-                    <table>
-                        <tr>
-                            <td>
+                   
+                        
+                            <div>
                                 <p className={styles.headRow}>1287+</p>
                                 <p className={styles.names}>SAVINGS</p>
-                            </td>
-                            <td>
+                            </div>
+                            <div>
                                 <p className={styles.headRow}>5786+</p>
                                 <p className={styles.names}>PHOTOS</p>
-                            </td>
-                            <td>
+                            </div>
+                            <div>
                                 <p className={styles.headRow}>1440+</p>
                                 <p className={styles.names}>ROCKETS</p>
-                            </td>
-                            <td>
+                            </div>
+                            <div>
                                 <p className={styles.headRow}>7110+</p>
                                 <p className={styles.names}>GLOBES</p>
-                            </td>
-                        </tr>
-                    </table>
+                            </div>
+                        
+                    
                  </div>
             </Fragment>
         )

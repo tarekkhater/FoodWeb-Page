@@ -15,7 +15,7 @@ function Div2(){
                       <li>Erat volutpat aliquet imperdiet.</li>
                       <li>purus a odio finibus bibendum.</li>
                    </ul>
-                   <button className={styles.btn1} ><Link href='/faq'>Learn More &nbsp;<i className="bi bi-chevron-right"></i></Link></button>
+                   <button className={styles.btn1} ><Link href='/faq'>Learn More &nbsp;</Link><i className="bi bi-chevron-right"></i></button>
                    </div>
                 <div className={styles.divImg}>
                    <Image src={divImg} alt=""/> </div>
