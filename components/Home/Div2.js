@@ -2,6 +2,7 @@ import React,{ Fragment} from 'react';
 import styles from '../../styles/Div2.module.css';
 import divImg from '../../images/2.png';
 import Image from 'next/dist/client/image';
+import Link from 'next/link';
 function Div2(){
         return(
             <Fragment >
@@ -14,7 +15,7 @@ function Div2(){
                       <li>Erat volutpat aliquet imperdiet.</li>
                       <li>purus a odio finibus bibendum.</li>
                    </ul>
-                   <button className={styles.btn1} ><a href='/faq'>Learn More &nbsp;<i className="bi bi-chevron-right"></i></a></button>
+                   <button className={styles.btn1} ><Link href='/faq'>Learn More &nbsp;<i className="bi bi-chevron-right"></i></Link></button>
                    </div>
                 <div className={styles.divImg}>
                    <Image src={divImg} alt=""/> </div>

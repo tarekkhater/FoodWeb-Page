@@ -15,19 +15,19 @@ function Footer() {
             <div className={styles.container}>
                 <div className={styles.row}>
                     <div className={styles.textCenter}>
-                        <a href="/">Home</a>
-                        <a href="/foods">Foods</a>
-                        <a href="/faq">FAQ</a>
-                        <a href="/#footer2">Contact</a>
+                        <Link href="/">Home</Link>
+                        <Link  href="/foods">Foods</Link >
+                        <Link  href="/faq">FAQ</Link >
+                        <Link  href="/#footer2">Contact</Link >
                         
                         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"></link>
                     </div>
                     <div className={styles.footerSocial}>
-                        <a href="https://web.facebook.com/" className="bi bi-facebook" target="_blank"></a>
-                        <a href="https://twitter.com/?lang=en" className="bi bi-twitter" target="_blank"></a>
-                        <a href="https://www.youtube.com/" className="bi bi-youtube" target="_blank"></a>
-                        <a href="https://www.linkedin.com/" className="bi bi-linkedin" target="_blank"></a>
-                        <a href="https://www.instagram.com/" className="bi bi-instagram" target="_blank"></a>
+                       <span> <Link  href="https://web.facebook.com/"  target="_blank"><i className="bi bi-facebook"></i></Link ></span>
+                        <span><Link  href="https://twitter.com/?lang=en"  target="_blank"><i className="bi bi-twitter"></i></Link ></span>
+                        <span><Link  href="https://www.youtube.com/"  target="_blank"><i className="bi bi-youtube"></i></Link ></span>
+                        <span><Link  href="https://www.linkedin.com/"  target="_blank"><i className="bi bi-linkedin"></i></Link ></span>
+                        <span><Link  href="https://www.instagram.com/"  target="_blank"><i className="bi bi-instagram"></i></Link ></span>
                     </div>
                 </div>
             </div>
