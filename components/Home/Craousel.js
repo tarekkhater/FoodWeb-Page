@@ -15,11 +15,11 @@ function Craousel(){
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active">
-      <Image src={img} className="d-block w-100" alt="..." height="450px" width="750px" align="center" / >
+  <div className="carousel-item active">
+      <Image src={img} className="d-block w-100" alt="..."  height="450px" width="750px" align="center"/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Fried Chicken Sandwich</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div className="carousel-item">
