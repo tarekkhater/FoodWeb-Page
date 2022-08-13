@@ -2,7 +2,7 @@
     width:100%;
     max-width:100%;
     background-color: lightgray;
-    padding:120px 420px 25px 420px;
+    padding:130px 420px 25px 420px;
     position:fixed;
     opacity:0.95;
     justify-content: center;
@@ -31,7 +31,7 @@
 }
 @media screen and (max-width:960px){
     .container{
-        background-color: lightgray;
+        background-color: rgb(238, 226, 226);
         padding:290px 20px;
         position:fixed;
         opacity:0.95;
@@ -54,7 +54,7 @@
     #form h1{
         
         text-align:center;
-        font-size: 28px;
+        font-size: 26px;
     }
         
 }

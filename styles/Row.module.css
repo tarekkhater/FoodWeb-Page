@@ -3,11 +3,12 @@
   width: 100%;
   max-width:100%;
   padding:5px;
+  text-align: center;
   
 }
 .headRow{
     color:white;
-    margin-left:150px;
+    
     word-spacing: 200;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +18,7 @@
 }
 .names{
     color:white;
-    margin-left:180px;
+    
     font-size:14px;
     
     font-weight: 700;
@@ -25,21 +26,23 @@
     line-height:20px;
 }
 @media screen and (max-width:760px){
-  .rows td{
-    display:block;
-    margin-left:0;
+  .rows:first-child{
+    
+    padding-left:0;
   }
   .headRow{
-    font-size:30px;
-    margin-left:150px;
+    font-size:20px;
+    padding-left:22px;
     line-height: 10px;
   }
   .names{
-    margin-left:160px;
+    font-size:10px;
+    padding-left:16px;
   }
   .rows{
     justify-content: center;
     justify-items: center;
+    display:flex;
   }
   
 }

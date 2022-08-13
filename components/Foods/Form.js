@@ -9,39 +9,39 @@ export default function Form() {
     
   return (
     <div className={styles.container}>    
-        <form id={styles.form} className="row g-3 needs-validation" noValidate>
+        <form id={styles.form} className="row g-3 needs-validation" >
             <h1>Make Your Order Now!</h1>
           <div className="">
-              <label htmlFor="validationCustom01" className="form-label">First name</label>
-              <input type="text" className="form-control" id="validationCustom01"  required />
+              <label htmlFor="validationCustom01" className="form-label ">First name</label>
+              <input type="text" className="form-control " id="validationCustom01"  required />
                 <div className="valid-feedback">
                   Looks good!
                 </div>
             </div>
             <div className="">
-              <label htmlFor="validationCustom02" className="form-label">last name</label>
-              <input type="text" className="form-control" id="validationCustom01"  required />
+              <label htmlFor="validationCustom02" className="form-label ">last name</label>
+              <input type="text" className="form-control " id="validationCustom02"  required />
                 <div className="valid-feedback">
                   Looks good!
                 </div>
            </div>
            <div className="">
               <label htmlFor="validationCustomm" className="form-label">phone</label>
-              <input type="phone" className="form-control" id="validationCustomm"  required />
+              <input type="phone" className="form-control " id="validationCustomm"  aria-describedby="inputGroupPrepend"  required />
                 <div className="valid-feedback">
                   please put your mobile number
                 </div>
            </div>
           <div className="">
             <label htmlFor="validationCustom03" className="form-label">Adress</label>
-            <input type="text" className="form-control" id="validationCustom03" required  />
+            <input type="text" className="form-control " id="validationCustom03" required  />
               <div className="invalid-feedback">
                 Please provide a valid adress.
               </div>
           </div>
             <div className="">
             <div className="form-check">
-                <input className="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+                <input className="form-check-input " type="checkbox" value="" id="invalidCheck" required />
                 <label className="form-check-label" htmlFor="invalidCheck">
                   Agree to terms and conditions
           </label>
