@@ -40,7 +40,7 @@ import Form from './Form';
                     <div key={item.id} className={styles.item}>
                         <Image src={item.img} alt='' height='250px' width='250px' className={styles.image} />
                         <h2>{item.name}</h2>
-                        <p>Time: {item.Time} || Service: {item.Service}</p>
+                        <p>Time: {item.Time} | Service:{item.Service}</p>
                         <span className={styles.rightPrice}>{item.rightPrice}  </span>
                         <span className={styles.oldPrice}>  {item.oldPrice}</span><br />
                         <button className={styles.btn} onClick={() => setForm(false)} >Order Now</button>

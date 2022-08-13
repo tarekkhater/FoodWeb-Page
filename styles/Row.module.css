@@ -13,7 +13,7 @@
   padding-left:0px;
 }
 .headRow{
-  padding-right:50px;
+    padding-right:50px;
     color:white;
     padding-left:60px;
     word-spacing: 1;
@@ -36,18 +36,15 @@
     padding-left:0;
   }
   .headRow{
-    font-size:20px;
-    padding-left:22px;
+    font-size:20px; 
     line-height: 10px;
+    padding-right:0px;
+    padding-left:20px;
   }
   .names{
     font-size:10px;
     padding-left:16px;
   }
-  .rows{
-    justify-content: center;
-    justify-items: center;
-    display:flex;
-  }
+ 
   
 }
