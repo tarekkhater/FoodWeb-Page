@@ -18,12 +18,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className="row">
-    <div className="container">  <Header /></div>
-    <div className="container"> <Row /></div>
-    <div className="container"> <Div /></div>
-    <div className="container"> <Div2 /></div>
-    <div className="container"> <Div3 /></div>
-    <div className="container">  <Craousel /></div>
+    <div className="container" id={styles.header}>  <Header /></div>
+    <div className="container" id={styles.row}> <Row /></div>
+    <div className="container" id={styles.div1}> <Div /></div>
+    <div className="container" id={styles.div2}> <Div2 /></div>
+    <div className="container" id={styles.div3}> <Div3 /></div>
+    <div className="container" id={styles.craousel}>  <Craousel /></div>
     
     
 
