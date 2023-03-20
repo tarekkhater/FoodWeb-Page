@@ -16,6 +16,8 @@ import Image from 'next/dist/client/image';
 import { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Form from './Form';
+import { useDispatch, useSelector } from 'react-redux';
+import { showForm } from '../../redux/slice';
  function Header() {
     
     const Products = () => {
@@ -43,43 +45,36 @@ import Form from './Form';
                         <p>Time: {item.Time} | Service:{item.Service}</p>
                         <span className={styles.rightPrice}>{item.rightPrice}  </span>
                         <span className={styles.oldPrice}>  {item.oldPrice}</span><br />
-                        <button className={styles.btn} onClick={() => setForm(false)} >Order Now</button>
+                        <button className={styles.btn} onClick={() => dispatch(showForm())} >Order Now</button>
                     </div>
                     
                 )
             }
         )
         )
-    };
-   
-    
-        
-          
-        
-const [form, setForm] = useState(true);
-      
+    }
+const form = useSelector(state =>state.info.form)
+const dispatch = useDispatch();
     useEffect(()=>{
         import("bootstrap/dist/js/bootstrap");
     },[])
   return (
     form?(<div className={styles.container}>
-       
+    
         <h1 id="text">Explore Our Foods</h1>
-        <div className='container' id="pro">
-         <div className='row' id={styles.products}>{Products()}</div>
+        <div  id="pro">
+    <div className={styles.products} id={styles.products}>{Products()}</div>
         </div>
- 
-        
-     </div>) : (<div>
-        <Form />
-        <div className={styles.container}>
-       
-       <h1>Explore Our Foods</h1>
-       <div className='container'>
-        <div className='row' id={styles.products}>{Products()}</div>
-       </div>
 
-       
+        
+    </div>) : (<div className={styles.container}>
+        <Form />
+        <p className={styles.exits}   >&#x2718;</p>
+        <div >
+            <h1>Explore Our Foods</h1>
+        <div >
+        <div className={styles.products} id={styles.products}>{Products()}</div>
+    </div>
     </div>
      </div>)
    

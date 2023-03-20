@@ -1,12 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { Component, Fragment } from 'react';
 import styles from '../../styles/Div.module.css';
 import Link from 'next/link';
-
+import {img1} from "../../images/1.png"
+import Image from 'next/image';
 function Div(){
      return(
          <Fragment >
             <div className={styles.Div1}>
                 <div className={styles.image}>
+               
                 </div>
                <div className={styles.text1}>
                     <p className={styles.txet1}>We pride ourselves on making real food from the best ingredients.</p>

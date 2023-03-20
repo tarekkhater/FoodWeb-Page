@@ -10,26 +10,23 @@ import Div2 from '../components/Home/Div2';
 import Div3 from '../components/Home/Div3';
 import Craousel from '../components/Home/Craousel';
 import { useEffect } from 'react';
-
+import Layout from '../components/Layout';
+import { motion , easeInOut } from 'framer-motion';
 export default function Home() {
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap");
 },[])
   return (
-    <div className={styles.container}>
-      <div className="row">
-    <div className="container" id={styles.header}>  <Header /></div>
-    <div className="container" id={styles.row}> <Row /></div>
-    <div className="container" id={styles.div1}> <Div /></div>
-    <div className="container" id={styles.div2}> <Div2 /></div>
-    <div className="container" id={styles.div3}> <Div3 /></div>
-    <div className="container" id={styles.craousel}>  <Craousel /></div>
-    
-    
-
-        
-
-      </div>
+    <Layout title="Home" contain={
+    <div>
+      <div  id={styles.header}>  <Header /></div>
+      <div  id={styles.row}> <Row /></div>
+      <div  id={styles.div1}> <Div /></div>
+      <div  id={styles.div2}> <Div2 /></div>
+      <div  id={styles.div3}> <Div3 /></div>
+      <div  id={styles.craousel}>  <Craousel /></div>
     </div>
+    }/>
+      
   )
 }

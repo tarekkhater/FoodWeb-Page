@@ -1,20 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/globals.css';
-import Nav from "../components/Home/Nav";
-
+import store from '../redux/store';
 import { useEffect } from 'react';
 import Footer from '../components/Home/Footer';
+import { Provider } from 'react-redux';
+
 function MyApp({ Component, pageProps }) {
   useEffect(()=>{
     import("bootstrap/dist/js/bootstrap");
 },[])
   return ( 
-    <div>
-  <Nav />
-      <br/>
+    
+    <Provider store={store}>
   <Component {...pageProps} />
- <Footer />
-  </div>
+  </Provider>
   )
 }
 

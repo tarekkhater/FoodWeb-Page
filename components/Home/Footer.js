@@ -34,7 +34,7 @@ function Footer() {
         </footer>
         <div className={styles.footercopy}>
             
-                © 2021. Foods. All rights reserved.
+        Copyright © 2022 Foodera
             
         </div>
     </div>

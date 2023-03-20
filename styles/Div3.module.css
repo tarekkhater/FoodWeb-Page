@@ -6,6 +6,7 @@
     
 }
 .H1{
+    margin-top: 50px;
     color: #43121d;
     margin-bottom: 15px;
     text-align:center;
@@ -15,9 +16,8 @@
     
 }
 .P1{
-    
-    margin:0 200px 0 280px;
-    width:60%;
+    padding:0 160px;
+    width:100%;
     font-size: 16px;
     color: #555;
     line-height: 28px;
@@ -34,6 +34,7 @@
     padding:0 100px 0 100px;
 }
 .divv1 , .divv2, .divv3 {
+    text-align: center;
     width:33%;
     margin-left:5px;
     padding:8px;
@@ -119,19 +120,22 @@
     }
     .divimages{
     
-        display:inline-flex;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width:100%;
         max-width:100%;
-        margin-top:50px;
+        margin-top:5px;
         padding:0;
     }
     .divv1 , .divv2, .divv3 {
     
-        width:33%;
+        width:100%;
         background-repeat: no-repeat;
         margin-left:5px;
-        padding:15px;
-        
+        padding:35px;
+        text-align: center;
     }
     .imgg1 , .imgg2 , .imgg3{
         width:100%;
@@ -139,39 +143,22 @@
         border-radius:20px;
     }
     
-    .divv1 p, .divv2 p, .divv3 p{
-        font-size: 10.5px;
-        color: #555;
-        line-height: 16px;
-        font-weight: 400;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0.5px; 
-    }
-    .divv1 h2,.divv2 h2, .divv3 h2{
-        color: #43121d;
-        font-size: 14px;
-        font-weight: 600;  
-        line-height:20px;
-    }
+   
     .rightPrice{
-        color:rgb(168, 45, 73);
-        margin-bottom: 15px;
-        font-size: 18px;
-        line-height: 10px;
-        
+       
+        font-size: 20px;
     }
     .oldPrice{
-        text-decoration: line-through;
-        color: #555;
-        margin-bottom: 15px;
-        font-size: 18px;
+        
+        font-size: 20px;
         line-height: 10px;
         
     }
     
     .btn1 {
-        font-size:11px;
+        font-size:15px;
         margin:10px 0px;
+        border-radius: 10px;
         padding:8px 15px 8px 15px;
        
     }

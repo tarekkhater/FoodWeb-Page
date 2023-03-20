@@ -1,5 +1,4 @@
 .rows{
-  margin-top:-26px;
   background-color:rgb(168, 45, 73);
   width: 100%;
   max-width:100%;
@@ -46,6 +45,9 @@
     padding-left:11px;
     line-height:4px;
   }
- 
-  
+}
+@media screen and (max-width:1024px) and (min-width:760px){
+  .rows{
+    margin-top: -50px;
+  }
 }

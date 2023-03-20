@@ -1,15 +1,14 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { showForm } from "../../redux/slice";
 import styles from '../../styles/Form.module.css';
 export default function Form() {
-    
-    
-      
-        
-         
+    const dispatch = useDispatch();
     
   return (
     <div className={styles.container}>    
         <form id={styles.form} className="row g-3 needs-validation" >
+          <label className={styles.exits}  onClick={()=>dispatch(showForm())} >&#x2718;</label>
             <h1>Make Your Order Now!</h1>
           <div className="">
               <label htmlFor="validationCustom01" className="form-label ">First name</label>
@@ -33,10 +32,10 @@ export default function Form() {
                 </div>
            </div>
           <div className="">
-            <label htmlFor="validationCustom03" className="form-label">Adress</label>
+            <label htmlFor="validationCustom03" className="form-label">Address</label>
             <input type="text" className="form-control " id="validationCustom03" required  />
               <div className="invalid-feedback">
-                Please provide a valid adress.
+                Please provide a valid address.
               </div>
           </div>
             <div className="">
@@ -51,7 +50,7 @@ export default function Form() {
           </div>
         </div>
         <div className="">
-          <button className="btn btn-primary" type="submit">Submit</button>
+          <button className="btn btn-primary" type="submit" style={{borderRadius:"20px"}}>Submit</button>
         </div>
       </form>
     </div>
