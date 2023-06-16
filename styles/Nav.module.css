@@ -23,7 +23,7 @@
 
 }
 #links:first-child{
-    margin-left:400px;
+    margin-left:300px;
 }
 #contain:first-child{
     margin-left:120px;
@@ -32,10 +32,8 @@
     color:whitesmoke;
     
 }
-@media screen and (max-width:760px){
-    #container{
-        background-color: rgb(255, 251, 251);
-    }
+
+@media screen and (max-width:990px){
     #contain:first-child{
         margin:0;
     }
@@ -53,6 +51,8 @@
     
     }
 }
+
+
 @media (prefers-color-scheme: dark) {
    
     
