@@ -14,7 +14,6 @@ import item11 from '../../images/11.jpg';
 import item12 from '../../images/12.jpg';
 import Image from 'next/dist/client/image';
 import { useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
 import Form from './Form';
 import { useDispatch, useSelector } from 'react-redux';
 import { showForm } from '../../redux/slice';
@@ -40,7 +39,7 @@ import { showForm } from '../../redux/slice';
             setItems = items.map(item=>{
                 return(
                     <div key={item.id} className={styles.item}>
-                        <Image src={item.img} alt='' height='250px' width='250px' className={styles.image} />
+                        <Image src={item.img} alt='' height='250px' width='300px' className={styles.image} />
                         <h2>{item.name}</h2>
                         <p>Time: {item.Time} | Service:{item.Service}</p>
                         <span className={styles.rightPrice}>{item.rightPrice}  </span>
@@ -55,9 +54,7 @@ import { showForm } from '../../redux/slice';
     }
 const form = useSelector(state =>state.info.form)
 const dispatch = useDispatch();
-    useEffect(()=>{
-        import("bootstrap/dist/js/bootstrap");
-    },[])
+    
   return (
     form?(<div className={styles.container}>
     
