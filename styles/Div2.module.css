@@ -11,7 +11,6 @@
 .divTxt{
     margin-left: 20px;
     padding:5px;
-    
 }
 .text{
     font-size:31px;
@@ -56,17 +55,21 @@
     
     .divTxt{
         width:100%;
-        padding:0px;
-        margin-top:50px ;
-        margin-right:10px;
-        padding-top:0;
+        margin:0;
+        padding:0;
 
     }
     .text{
-        font-size:18px;
-        line-height:25px;
+        font-size:20px;
+        line-height:20px;
         margin:0;
+        padding:0;
         margin-bottom: -28px;
+    }
+    .divTxt ul li{
+        padding: 6px 0 9px 10px;
+        display:list-item;
+        font-size:16px;
     }
   
 }

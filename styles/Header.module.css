@@ -107,3 +107,19 @@
 }
 
 
+@media screen and (max-width:360px){
+   
+    
+  
+    .header button{
+    width:42%;
+    font-size:13px;
+    margin:5px;
+    padding:10px 20px 8px 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid whitesmoke;
+    margin: -28px 2px 45px 8px;
+}
+}
+
